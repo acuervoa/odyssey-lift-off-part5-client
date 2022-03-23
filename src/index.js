@@ -5,7 +5,7 @@ import Pages from './pages';
 import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000',
+  uri: 'https://lift-off-catsastronauts-server.herokuapp.com/', // URL production
   cache: new InMemoryCache(),
 });
 
